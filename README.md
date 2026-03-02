@@ -11,6 +11,15 @@ Post these updates, the user runs docker compose to bring up the application, ad
 - Git: A version control system used to clone the application repository from GitHub, enabling easy access to the code and management of code. 
 - AWS EC2-Instance: An Amazon EC2 instance is a virtual server, or virtual machine, within Amazon's Elastic Compute Cloud (EC2) service, allowing users to run applications on the AWS cloud.
 
+**3-Tier-Application details:**
+
+- Frontend (Web) – running on Node.js environment with npm package manager.
+- Backend (API) – running on Node.js environment with npm package manager.
+- Database (DB) – running Mongo DB program.
+- 
+The name of the Application is “Wanderlust - Your Ultimate Travel Blog”.
+
+
 **High Level Diagram:**
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
@@ -21,3 +30,9 @@ Post these updates, the user runs docker compose to bring up the application, ad
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Project Implementation Steps:**
+
+- Create an EC2 Instance in AWS Cloud Infrastructure.
+- To Clone 3-Tier-Application Source Code from Github.
+- To create Docker file for frontend, backend and to create Docker-Compose file for complete application.
+- 
