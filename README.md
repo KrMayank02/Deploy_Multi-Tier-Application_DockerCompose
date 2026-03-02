@@ -42,3 +42,28 @@ The name of the Application is “Wanderlust - Your Ultimate Travel Blog”.
 
 # Result Screenshots:
 ------------------------------------------------------------------------------------------------------------------------------------------------------
+
+All the three containers for frontend, backend and mongo DB got created successfully:
+
+<img width="953" height="294" alt="image" src="https://github.com/user-attachments/assets/f41565f7-8cd6-484a-ab60-a4a5f94f5cc1" />
+
+<img width="955" height="214" alt="image" src="https://github.com/user-attachments/assets/e1fc70f0-03c4-4544-890a-461356b998d6" />
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+To verify the deployment, try access the web-app URL.
+
+On any web browser, hit the URL:    http://54.166.95.96:5173/
+
+Now the Application is accessible, please find below the screenshot:
+
+<img width="965" height="561" alt="image" src="https://github.com/user-attachments/assets/931dee0a-56dc-4e2e-8e58-32ecd9e8861f" />
+
+<img width="956" height="593" alt="image" src="https://github.com/user-attachments/assets/6ec50609-8792-4739-946c-d6907a1b3351" />
+
+<img width="949" height="618" alt="image" src="https://github.com/user-attachments/assets/fdaa5c9e-ff19-4aa6-8264-3bfc00316917" />
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
+**As per the requirement of the Project: the Deployment of Multi-Tier Application using Docker Compose is performed successfully!**
+
