@@ -42,6 +42,34 @@ The name of the Application is “Wanderlust - Your Ultimate Travel Blog”.
 
 ## Output Result Screenshots:
 
+Clone 3-Tier-Application Source Code from Github
+
+<img width="960" height="238" alt="image" src="https://github.com/user-attachments/assets/c3eb60f3-9d04-4d91-95eb-6c22feb55619" />
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="948" height="296" alt="image" src="https://github.com/user-attachments/assets/3c8fea8b-4403-4604-947d-972581b86e07" />
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="947" height="389" alt="image" src="https://github.com/user-attachments/assets/23670e4c-856a-438e-b5b1-6d335d21cb94" />
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="945" height="462" alt="image" src="https://github.com/user-attachments/assets/9f2025c8-68ef-4572-85df-b48b88884881" />
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+<img width="925" height="439" alt="image" src="https://github.com/user-attachments/assets/c914da88-ab2b-4544-aba3-2ea2289d3807" />
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+update the security group settings of Host Machine (EC2 Instance) to allow the traffic on specific ports on which app services are running
+
+<img width="969" height="497" alt="image" src="https://github.com/user-attachments/assets/f8b53409-e7fd-4262-b80b-350fc70b2bf6" />
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
 All the three containers for frontend, backend and mongo DB got created successfully:
 
 <img width="953" height="294" alt="image" src="https://github.com/user-attachments/assets/f41565f7-8cd6-484a-ab60-a4a5f94f5cc1" />
