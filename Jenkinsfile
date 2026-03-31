@@ -1,5 +1,5 @@
 pipeline {
-    agent label 'slave-node'
+    agent { label 'slave-node' }
 
     environment {
         APP_NAME = "multi-tier-app"
@@ -17,7 +17,7 @@ pipeline {
         stage('Verify Docker Setup') {
             steps {
                 sh 'docker --version'
-                sh 'docker-compose --version'
+                sh 'docker-compose --version || docker compose version'
             }
         }
 
@@ -25,7 +25,7 @@ pipeline {
             steps {
                 sh '''
                 if [ -f ${COMPOSE_FILE} ]; then
-                    docker-compose down || true
+                    docker-compose down || docker compose down || true
                 fi
                 '''
             }
@@ -34,7 +34,7 @@ pipeline {
         stage('Build & Start Containers') {
             steps {
                 sh '''
-                docker-compose up -d --build
+                docker-compose up -d --build || docker compose up -d --build
                 '''
             }
         }
@@ -52,6 +52,9 @@ pipeline {
         }
         failure {
             echo "❌ Deployment Failed!"
+        }
+        always {
+            cleanWs()
         }
     }
 }
