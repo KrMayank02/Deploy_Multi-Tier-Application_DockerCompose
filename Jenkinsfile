@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/Ilamparidhi-21/Deploy_Multi-Tier-Application_DockerCompose.git'
+                git branch: 'node', url: 'https://github.com/Ilamparidhi-21/Deploy_Multi-Tier-Application_DockerCompose.git'
             }
         }
 
