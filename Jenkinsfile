@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'slave-node' }
+    agent { label 'production' }
 
     environment {
         APP_NAME = "multi-tier-app"
@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'master', url: 'https://github.com/KrMayank02/Deploy_Multi-Tier-Application_DockerCompose.git'
+                git branch: 'production', url: 'https://github.com/KrMayank02/Deploy_Multi-Tier-Application_DockerCompose.git'
             }
         }
 
