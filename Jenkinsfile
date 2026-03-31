@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'production', url: 'https://github.com/KrMayank02/Deploy_Multi-Tier-Application_DockerCompose.git'
+                git branch: 'production', url: 'https://https://github.com/Ilamparidhi-21/Deploy_Multi-Tier-Application_DockerCompose.git'
             }
         }
 
